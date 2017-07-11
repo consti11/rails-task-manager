@@ -12,8 +12,8 @@
 
 ActiveRecord::Schema.define(version: 20170711092902) do
 
-  create_table "managers", force: :cascade do |t|
-    t.string   "task"
+  create_table "tasks", force: :cascade do |t|
+    t.string   "name"
     t.string   "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
